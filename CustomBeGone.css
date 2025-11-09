@@ -1,7 +1,7 @@
 /**
  * @name CustomBeGone
  * @author ZoeyCowley
- * @version 1.1
+ * @version 1.2
  * @description Removes various obtrusive elements.
  * @source https://github.com/
  * @website https://github.com/zoeycowley/discord-fixes/blob/main/CustomBeGone.css
@@ -15,6 +15,7 @@ Removes:
 - Custom name fonts
 - Nameplates
 - Profile effects
+- Avatar decoration
 - Nitro banner
 
 To re-enable any of these features, simply remove its section from this CSS file.
@@ -54,6 +55,12 @@ To re-enable any of these features, simply remove its section from this CSS file
 
 /* profile effects */
 .profileEffects__01370 {
+  display: none !important;
+}
+
+/* avatar decoration */
+.avatarDecoration_c19a55,
+.avatarDecoration__44b0c {
   display: none !important;
 }
 
