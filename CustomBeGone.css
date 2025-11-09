@@ -1,0 +1,56 @@
+/*
+CustomBeGone.css - Custom CSS by Zoey Cowley
+
+Removes:
+- Custom name colors
+- Custom name fonts
+- Nameplates
+- Profile effects
+- Nitro banner
+
+To re-enable any of these features, simply remove its section from this CSS file. Developed because some Nitro effects are really obtrusive, and I prefer a more simple and unobtrusive experience on the app
+*/
+
+/* revert custom name colors */
+.innerContainer_dfb989,
+.gradient_dfb989 {
+  all: unset !important;
+  display: revert !important;
+}
+.username_c19a55 {
+  color: white !important;
+}
+
+/* revert fonts */
+.cherryBomb__89a31,
+.cherryBomb__89a31.safari__89a31,
+.chicle__89a31,
+.museoModerno__89a31,
+.neoCastel__89a31,
+.neoCastel__89a31.safari__89a31,
+.pixelify__89a31,
+.sinistre__89a31,
+.zillaSlab__89a31 {
+  font-family: "gg sans" !important;
+}
+
+/* nameplates */
+.container__4bbc6,
+.fadeIn__4bbc6 {
+  display: none !important;
+}
+
+/* profile effects */
+.profileEffects__01370 {
+  display: none !important;
+}
+
+/* nitro banner */
+.banner__68edb,
+.banner__7f9c0
+{
+  background-image: none !important;
+  object-fit: cover;
+  content: none !important;
+  image-rendering: pixelated;
+}
